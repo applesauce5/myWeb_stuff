@@ -1,0 +1,14 @@
+.block-section {
+    font-size: 30px;
+    /* padding: 5px; */
+    margin-bottom: 10px;
+    border-bottom: 1px solid lightgray;
+}
+
+.block-section h2 {
+    color: royalblue;
+}
+
+.block-section p {
+    color: #666;
+}

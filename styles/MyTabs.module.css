@@ -1,0 +1,37 @@
+.react-tabs {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Styles for the tab list */
+.react-tabs__tab-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    border-bottom: 2px solid #ccc;
+    margin-bottom: 10px;
+}
+
+/* Styles for individual tabs */
+.react-tabs__tab {
+    cursor: pointer;
+    padding: 10px;
+    margin-right: 10px;
+    color: #333;
+    border: 2px solid transparent;
+    border-radius: 4px;
+    transition: border-color 0.2s ease-in-out;
+}
+
+/* Styles for the selected tab */
+.react-tabs__tab--selected {
+    border-color: #007bff; /* Change the color based on your preference */
+    background-color: #f0f0f0; /* Change the background color based on your preference */
+}
+
+/* Styles for the content of each tab */
+.react-tabs__tab-panel {
+    padding: 15px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    margin-top: -2px; /* Adjust to align with the border of the selected tab */
+}
