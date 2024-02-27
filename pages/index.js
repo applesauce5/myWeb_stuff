@@ -4,6 +4,7 @@ import Date from '../components/date';
 import Layout, { siteTitle } from '../components/layout';
 import utilStyles from '../styles/utils.module.css';
 import { getSortedPostsData } from '../lib/posts';
+import VideoCard from '../components/VideoCard'
 import Paragraph from '../components/paragraph';
 import Tab from '../components/tabs'
 import BlockSection from '../components/BlockSection';
@@ -57,6 +58,8 @@ export default function Home({ allPostsData }) {
           </ul>
         </div>
       </section>
+      <BlockSection title="Insta Stuff"/>
+      <VideoCard video_path="/api/get_videos"/>
     </Layout>
   );
 }
